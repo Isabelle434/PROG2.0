@@ -2,7 +2,7 @@ from flask import Flask
 from flask import render_template
 from flask import request
 
-app = Flask("Home")
+app = Flask("medtrack")
 
 
 
@@ -16,9 +16,16 @@ def suche():
         return render_template("index.html")
 
 
-@app.route("/neuereintrag/")
+@app.route("/neuereintrag/", methods=['GET', 'POST'])
 def neuereintrag():
-    return render_template("neuereintrag.html")
+    if request.method == 'POST':
+        vorname_person = request.form['vorname_neu']
+        nachname_person = request.form['vorname_neu']
+        geburtsdatum_person = request.form['geburtsdatum_neu']
+        bemerkungen_person = request.form['bemerkungen_neu']
+        return render_template("erfasst.html", vorname_neu=vorname_person, nachname_neu=nachname_person, geburtsdatum_neu=geburtsdatum_person, bemerkungen_neu=bemerkungen_person)
+    else:
+        return render_template("neuereintrag.html")
 
 
 #def neuereintrag():
