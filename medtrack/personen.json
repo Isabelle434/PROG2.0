@@ -1,14 +1,12 @@
 personen = {
-    "Isabelle Köhle": {
+    {
+        "Vorname": "Isabelle",
+        "Name": "Köhle",
         "Geburtsdatum": "01.10.1997",
-        "Bemerkungen": "hang in there"
-    },
-    "Frank Tonmann": {
-        "Geburtsdatum": "14.05.1983",
-        "Bemerkungen": "super Ton"
-    },
-      "Paul Ripke": {
-        "Geburtsdatum": "23.08.1980",
-        "Bemerkungen": "california dreaming"
+        "Morgen": "Tablette 1",
+        "Mittag": "Tablette 2",
+        "Abend": "Tablette 3",
+        "Nacht": "Tablette 4",
+        "Bemerkungen": "Haus"
     }
 }

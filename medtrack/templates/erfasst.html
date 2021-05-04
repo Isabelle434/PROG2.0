@@ -1,15 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>medtrack - Neuer Eintrag</title>
-</head>
-<body>
+{% include "header.html" %}
+
     <h1>Neuer Eintrag erfasst</h1>
     <p>Vorname: {{ vorname_neu }} <br>
         Nachname: {{ nachname_neu }} <br>
         Geburtsdatum: {{ geburtsdatum_neu }} <br>
+        Medikamente <br>
+        Morgen: {{ morgen_neu }} <br>
+        Mittag: {{ mittag_neu }} <br>
+        Abend: {{ abend_neu }} <br>
+        Nacht: {{ nacht_neu }} <br>
         Bemerkungen: {{ bemerkungen_neu }} <br>
+
     </p>
-</body>
-</html>
+
+{% include "footer.html" %}
