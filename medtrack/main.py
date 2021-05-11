@@ -35,11 +35,16 @@ def suche():
 @app.route("/neuereintrag/", methods=['GET', 'POST'])
 def neuereintrag():
     if request.method == 'POST':
-        vorname_person = request.form['vorname_neu']
-        nachname_person = request.form['nachname_neu']
-        bemerkung_person = request.form['bemerkungen_neu']
-        daten.eintrag_speichern(vorname_person, nachname_person, bemerkung_person)
-        return "Gespeichert " + vorname_person + " " + nachname_person
+        vorname = request.form['vorname']
+        name = request.form['name']
+        geburtstag = request.form['geburtstag']
+        morgen = request.form['morgen']
+        mittag = request.form['mittag']
+        abend = request.form['abend']
+        nacht = request.form['nacht']
+        bemerkung = request.form['bemerkung']
+        daten.eintrag_speichern(vorname, name, geburtstag, morgen, mittag, abend, nacht, bemerkung)
+        return render_template("erfasst.html", vorname=vorname, name=name, geburtstag=geburtstag, morgen=morgen, mittag=mittag, abend=abend, nacht=nacht, bemerkung=bemerkung)
     else:
         return render_template("neuereintrag.html")
 

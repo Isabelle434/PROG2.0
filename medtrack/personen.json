@@ -1,12 +1,42 @@
-personen = {
-    {
+{
+    "IsabelleK\u00f6hle": {
         "Vorname": "Isabelle",
-        "Name": "Köhle",
+        "Name": "K\u00c3\u00b6hle",
         "Geburtsdatum": "01.10.1997",
         "Morgen": "Tablette 1",
         "Mittag": "Tablette 2",
         "Abend": "Tablette 3",
         "Nacht": "Tablette 4",
         "Bemerkungen": "Haus"
+    },
+    "Hans Meier": {
+        "Vorname": "Hans",
+        "Name": "Meier",
+        "Geburtsdatum": "2021-05-04",
+        "Morgen": "33 jfkdjfkdk",
+        "Mittag": "7 jfkdsjf",
+        "Abend": "9 jfdksajf ",
+        "Nacht": "0 kjfdksaf",
+        "Bemerkungen": "Hello"
+    },
+    "Frank Karl": {
+        "Vorname": "Frank",
+        "Name": "Karl",
+        "Geburtsdatum": "2021-04-26",
+        "Morgen": "3 fdsaf",
+        "Mittag": "9 fjdsaf",
+        "Abend": "7 jfdskalf",
+        "Nacht": "92 jfdskafjl",
+        "Bemerkungen": "djsfkal"
+    },
+    "Marion Spitz": {
+        "Vorname": "Marion",
+        "Name": "Spitz",
+        "Geburtsdatum": "2021-04-26",
+        "Morgen": "234 jfkdsj",
+        "Mittag": "99 fksdjf",
+        "Abend": "2 fjdk",
+        "Nacht": "1 jfkds",
+        "Bemerkungen": "helloff"
     }
 }

@@ -3,10 +3,18 @@
 <h1>Neuer Eintrag</h1>
 
 <form method="POST">
-    <input type="text" name="vorname_neu" placeholder="Vorname"><br>
-    <input type="text" name="nachname_neu" placeholder="Nachname"><br>
-    <input type="text" name="bemerkungen_neu" placeholder="Bemerkungen"><br>
+    <input type="text" name="vorname" placeholder="Vorname"><br>
+    <input type="text" name="name" placeholder="Nachname"><br>
+    <input type="date" name="geburtstag" placeholder="Geburtsdatum"><br>
+    <input type="text" name="morgen" placeholder="Morgens"><br>
+    <input type="text" name="mittag" placeholder="Mittags"><br>
+    <input type="text" name="abend" placeholder="Abends"><br>
+    <input type="text" name="nacht" placeholder="Nachts"><br>
+    <input type="text" name="bemerkung" placeholder="Bemerkungen"><br>
     <button type="submit">Erfassen</button>
 </form>
-
+<br>
+<br>
+<br>
+<a href="{{ url_for('suche')}}">Startseite</a>
 {% include "footer.html" %}
