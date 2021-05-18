@@ -1,5 +1,5 @@
 {
-    "IsabelleK\u00f6hle": {
+    "Isabelle K\u00f6hle": {
         "Vorname": "Isabelle",
         "Name": "K\u00c3\u00b6hle",
         "Geburtsdatum": "01.10.1997",
@@ -29,14 +29,24 @@
         "Nacht": "92 jfdskafjl",
         "Bemerkungen": "djsfkal"
     },
-    "Marion Spitz": {
-        "Vorname": "Marion",
-        "Name": "Spitz",
+    "Max Meier": {
+        "Vorname": "Max",
+        "Name": "Meier",
         "Geburtsdatum": "2021-04-26",
         "Morgen": "234 jfkdsj",
         "Mittag": "99 fksdjf",
         "Abend": "2 fjdk",
         "Nacht": "1 jfkds",
         "Bemerkungen": "helloff"
+    },
+    "Samira Inglin": {
+        "Vorname": "Samira",
+        "Name": "Inglin",
+        "Geburtsdatum": "2021-05-05",
+        "Morgen": "3 fdsaf",
+        "Mittag": "7 jfkdsjf",
+        "Abend": "7 jfdskalf",
+        "Nacht": "0 kjfdksaf",
+        "Bemerkungen": "sal\u00fc\u00fc"
     }
 }

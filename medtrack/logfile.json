@@ -1,0 +1,46 @@
+{
+    "Isabelle K\u00f6hle": {
+        "2019-10-11 14:32:10.852902": {
+            "Morgen": "Ja",
+            "Mittag": "Nein",
+            "Abend": "Ja",
+            "Nacht": "Ja"
+        }
+    },
+    "Hans Meier": {
+        "2019-10-11 14:32:10.852902": {
+            "Morgen": "Ja",
+            "Mittag": "Nein",
+            "Abend": "Ja",
+            "Nacht": "Ja"
+        }
+    },
+    "Frank Karl": {
+        "2021-05-28": {
+            "Morgen": "Ja",
+            "Mittag": "Ja",
+            "Abend": "Ja",
+            "Nacht": "Nein"
+        },
+        "2021-05-27": {
+            "Morgen": "Ja",
+            "Mittag": "Nein",
+            "Abend": "Nein",
+            "Nacht": "Nein"
+        }
+    },
+    "Max Meier": {
+        "2021-05-13": {
+            "Morgen": "Ja",
+            "Mittag": "Ja",
+            "Abend": "Ja",
+            "Nacht": "Nein"
+        },
+        "2021-06-02": {
+            "Morgen": "Ja",
+            "Mittag": "Ja",
+            "Abend": "Ja",
+            "Nacht": "Nein"
+        }
+    }
+}

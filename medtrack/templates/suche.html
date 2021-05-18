@@ -1,5 +1,26 @@
 {% include "header.html" %}
 
-    <h1>Suchresultate für {{ suchbegriff }}</h1>
+<h1>Resultate für {{ suchbegriff }}</h1>
+<p>
+    {{ datensatz }}
+    <br><br><br>
+</p>
+<p>
+    Tag abschliessen:
+    <br>
+</p>
+
+<form method="POST">
+    <input type="text" name="person" placeholder="Vorname Name"><br>
+    <input type="date" name="datum" placeholder="Datum"><br>
+    <input type="text" name="morgen" placeholder="Morgens"><br>
+    <input type="text" name="mittag" placeholder="Mittags"><br>
+    <input type="text" name="abend" placeholder="Abends"><br>
+    <input type="text" name="nacht" placeholder="Nachts"><br>
+    <button type="submit">Speichern</button>
+</form>
+
+
+
 
 {% include "footer.html" %}
