@@ -1,8 +1,16 @@
 {% include "header.html" %}
 
 
-{{ personen }}
+{% for person, angaben in personen.items() %}
+    <br><b>{{ angaben["Vorname"] }} {{ angaben["Name"] }}</b>
+    <br>Geburtsdatum: {{ angaben["Geburtsdatum"] }}
+    <br>Morgens: {{ angaben["Morgen"] }}
+    <br>Mittags: {{ angaben["Mittag"] }}
+    <br>Abends: {{ angaben["Abend"] }}
+    <br>Nachts: {{ angaben["Nacht"] }}
+    <br>Bemerkungen: {{ angaben["Bemerkungen"] }}<br>
+{% endfor %}
 
-<
+
 
 {% include "footer.html" %}

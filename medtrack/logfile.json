@@ -41,6 +41,27 @@
             "Mittag": "Ja",
             "Abend": "Ja",
             "Nacht": "Nein"
+        },
+        "2021-05-23": {
+            "Morgen": "Ja",
+            "Mittag": "Nein",
+            "Abend": "Nein",
+            "Nacht": "Nein"
+        },
+        "2021-05-22": {
+            "Morgen": "Ja",
+            "Mittag": "Nein",
+            "Abend": "Nein",
+            "Nacht": "Nein",
+            "Nachtja": "nachtja"
+        }
+    },
+    "Dominik Schaffhausen": {
+        "2021-05-23": {
+            "Morgen": "Ja",
+            "Mittag": "Ja",
+            "Abend": "Nein",
+            "Nacht": "Ja"
         }
     }
 }

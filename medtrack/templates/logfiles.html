@@ -1,6 +1,13 @@
 {% include "header.html" %}
 
 
-{{ logfiles }}
+{% for person, angaben in logfiles.items() %}
+    <br><b>{{ person }}</b>
+    <br>Datum: {{ [angaben][0] }}
+    <br>Morgens: {{ [angaben][0]["Morgen"] }}
+    <br>Mittags: {{ angaben["Mittag"] }}
+    <br>Abends: {{ angaben["Abend"] }}
+    <br>Nachts: {{ angaben["Nacht"] }}
+{% endfor %}
 
 {% include "footer.html" %}

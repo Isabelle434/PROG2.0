@@ -17,8 +17,8 @@ def suche():
     else:
         return render_template("index.html")
 
-@app.route("/bestaetigung", methods=['Get', 'POST'])
-def bestaetigung():
+@app.route("/abschluss", methods=['GET', 'POST'])
+def abschluss():
     if request.method == 'POST':
         person = request.form['person']
         datum = request.form['datum']
@@ -29,7 +29,7 @@ def bestaetigung():
         daten.speichernlog(person, datum, morgen, mittag, abend, nacht)
         return "bestätigt"
     else:
-        return render_template("suche.html")
+        return render_template("abschluss.html")
 
 
 

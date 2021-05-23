@@ -20,6 +20,7 @@ def speichern(vorname, name, geburtstag, morgen, mittag, abend, nacht, bemerkung
         "Bemerkungen": bemerkung
     }
 
+
     with open(datei, "w") as open_file:
         json.dump(datei_inhalt, open_file, indent=4)
 
@@ -35,7 +36,7 @@ def suche(suchbegriff):
         return result
 
 
-def speichernlog(person, datum, morgen, mittag, abend, nacht):
+def speichernlog(person, datum, morgen, mittag, abend, nacht, nachtja, ):
     datei = "logfile.json"
     try:
         with open(datei) as open_file:
@@ -43,12 +44,22 @@ def speichernlog(person, datum, morgen, mittag, abend, nacht):
     except FileNotFoundError:
         datei_inhalt = {}
 
-    datei_inhalt[str(person)][datum] = {
-        "Morgen": morgen,
-        "Mittag": mittag,
-        "Abend": abend,
-        "Nacht": nacht
-    }
+    if str(person) in datei_inhalt:
+        datei_inhalt[str(person)][datum] = {
+            "Morgen": morgen,
+            "Mittag": mittag,
+            "Abend": abend,
+            "Nacht": nacht,
+            "Nachtja": nachtja
+        }
+    else:
+        datei_inhalt[str(person)] = {}
+        datei_inhalt[str(person)][datum] = {
+            "Morgen": morgen,
+            "Mittag": mittag,
+            "Abend": abend,
+            "Nacht": nacht
+        }
 
     with open(datei, "w") as open_file:
         json.dump(datei_inhalt, open_file, indent=4)
