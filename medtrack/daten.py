@@ -36,7 +36,7 @@ def suche(suchbegriff):
         return result
 
 
-def speichernlog(person, datum, morgen, mittag, abend, nacht, nachtja, ):
+def speichernlog(person, datum, morgen, mittag, abend, nacht):
     datei = "logfile.json"
     try:
         with open(datei) as open_file:
@@ -49,8 +49,7 @@ def speichernlog(person, datum, morgen, mittag, abend, nacht, nachtja, ):
             "Morgen": morgen,
             "Mittag": mittag,
             "Abend": abend,
-            "Nacht": nacht,
-            "Nachtja": nachtja
+            "Nacht": nacht
         }
     else:
         datei_inhalt[str(person)] = {}
@@ -70,3 +69,9 @@ def alles(datei):
         my_read_dict = json.loads(json_as_string)
         return my_read_dict
 
+
+def logfile(datei, person):
+    with open(datei) as datei_name:
+        json_as_string = datei_name.read()
+        my_read_dict = json.loads(json_as_string)
+        return my_read_dict[person]

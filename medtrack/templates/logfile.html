@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% include "header.html" %}
+
+Einträge für {{ person }}
+{% for key, value in logfile.items() %}
+    <br>Datum: {{ key }}
+    <br>Morgens: {{ value["Morgen"] }}
+    Mittags: {{ value["Mittag"] }}
+    Abends: {{ value["Abend"] }}
+    Nachts: {{ value["Nacht"] }}
+{% endfor %}
+
+{% include "footer.html" %}

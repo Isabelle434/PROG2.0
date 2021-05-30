@@ -26,6 +26,10 @@ def abschluss():
         mittag = request.form['mittag']
         abend = request.form['abend']
         nacht = request.form['nacht']
+        #try:
+        #    nachtja = request.form['nachtja']
+        #except:
+        #    nachtja= request.form['nachtja': "off"]
         daten.speichernlog(person, datum, morgen, mittag, abend, nacht)
         return "bestätigt"
     else:
@@ -49,11 +53,18 @@ def neuereintrag():
     else:
         return render_template("neuereintrag.html")
 
-@app.route("/personen")
+@app.route("/personen", methods=['GET', 'POST'])
 def allepersonen():
-    datei = "personen.json"
-    personen = daten.alles(datei)
-    return render_template("personen.html", personen=personen)
+    if request.method == 'POST':
+        person = request.form['logfileperson']
+        datei = "logfile.json"
+        logfile = daten.logfile(datei, person)
+        return render_template("logfile.html", person=person, logfile=logfile)
+    else:
+        datei = "personen.json"
+        personen = daten.alles(datei)
+        return render_template("personen.html", personen=personen)
+
 
 @app.route("/logfiles")
 def allelogs():

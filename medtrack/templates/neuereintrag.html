@@ -1,18 +1,27 @@
 {% include "header.html" %}
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1>Neuer Eintrag</h1>
+    <div class="row">
+        <div class="col-sm">
+        <form method="POST">
+             <b>Personalien</b><br>
+            <input type="text" name="vorname" placeholder="Vorname"><br>
+            <input type="text" name="name" placeholder="Nachname"><br>
+            <input type="date" name="geburtstag" placeholder="Geburtsdatum"><br>
+            </div>
+        <div class="col-sm">
+            <b>Benötigte Medikamente</b><br>
+            <input type="text" name="morgen" placeholder="Morgens"><br>
+            <input type="text" name="mittag" placeholder="Mittags"><br>
+            <input type="text" name="abend" placeholder="Abends"><br>
+            <input type="text" name="nacht" placeholder="Nachts"><br>
+            <input type="text" name="bemerkung" placeholder="Bemerkungen"><br><br>
+            <button type="submit" class="btn btn-outline-success">Erfassen</button>
+        </form>
+            </div>
+    </div>
+    </div>
 
-<h1>Neuer Eintrag</h1>
-
-<form method="POST">
-    <label for="vo">Vorname:</label>
-    <input type="text" id="vo" name="vorname" placeholder="Vorname"><br>
-    <input type="text" name="name" placeholder="Nachname"><br>
-    <input type="date" name="geburtstag" placeholder="Geburtsdatum"><br>
-    <input type="text" name="morgen" placeholder="Morgens"><br>
-    <input type="text" name="mittag" placeholder="Mittags"><br>
-    <input type="text" name="abend" placeholder="Abends"><br>
-    <input type="text" name="nacht" placeholder="Nachts"><br>
-    <input type="text" name="bemerkung" placeholder="Bemerkungen"><br>
-    <button type="submit">Erfassen</button>
-</form>
-
+</section>
 {% include "footer.html" %}

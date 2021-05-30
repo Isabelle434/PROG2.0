@@ -1,15 +1,19 @@
 {% include "header.html" %}
 
-
+<form method="POST">
 {% for person, angaben in personen.items() %}
-    <br><b>{{ angaben["Vorname"] }} {{ angaben["Name"] }}</b>
+    <br><b>{{ person }}</b>
     <br>Geburtsdatum: {{ angaben["Geburtsdatum"] }}
     <br>Morgens: {{ angaben["Morgen"] }}
     <br>Mittags: {{ angaben["Mittag"] }}
     <br>Abends: {{ angaben["Abend"] }}
     <br>Nachts: {{ angaben["Nacht"] }}
-    <br>Bemerkungen: {{ angaben["Bemerkungen"] }}<br>
+    <br>Bemerkungen: {{ angaben["Bemerkungen"] }}<br><br>
+    <a class="btn btn-outline-success" href="{{ url_for('abschluss')}}" role="button">Tagesabschluss</a>
+    <button type="submit" class="btn btn-outline-success" name="logfileperson" value="{{ person }}">Logfile</button>
+    <a class="btn btn-outline-success" href="{{ url_for('abschluss')}}" role="button">Statistik</a>
 {% endfor %}
+</form>
 
 
 

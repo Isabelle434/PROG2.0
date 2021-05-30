@@ -1,6 +1,6 @@
 {
     "Isabelle K\u00f6hle": {
-        "2019-10-11 14:32:10.852902": {
+        "2019-10-11": {
             "Morgen": "Ja",
             "Mittag": "Nein",
             "Abend": "Ja",
@@ -8,7 +8,7 @@
         }
     },
     "Hans Meier": {
-        "2019-10-11 14:32:10.852902": {
+        "2019-10-11": {
             "Morgen": "Ja",
             "Mittag": "Nein",
             "Abend": "Ja",
@@ -44,11 +44,18 @@
         },
         "2021-05-23": {
             "Morgen": "Ja",
-            "Mittag": "Nein",
-            "Abend": "Nein",
-            "Nacht": "Nein"
+            "Mittag": "Ja",
+            "Abend": "Ja",
+            "Nacht": "Ja"
         },
         "2021-05-22": {
+            "Morgen": "Ja",
+            "Mittag": "Nein",
+            "Abend": "Nein",
+            "Nacht": "Nein",
+            "Nachtja": "nachtja"
+        },
+        "2021-05-26": {
             "Morgen": "Ja",
             "Mittag": "Nein",
             "Abend": "Nein",

@@ -2,12 +2,14 @@
 
 
 {% for person, angaben in logfiles.items() %}
-    <br><b>{{ person }}</b>
-    <br>Datum: {{ [angaben][0] }}
-    <br>Morgens: {{ [angaben][0]["Morgen"] }}
-    <br>Mittags: {{ angaben["Mittag"] }}
-    <br>Abends: {{ angaben["Abend"] }}
-    <br>Nachts: {{ angaben["Nacht"] }}
+<br><b>{{ person }}</b>
+    {% for key, value in angaben.items() %}
+        <br>Datum: {{ key }}
+        <br>Morgens: {{ value["Morgen"] }}
+        Mittags: {{ value["Mittag"] }}
+        Abends: {{ value["Abend"] }}
+        Nachts: {{ value["Nacht"] }}<br>
+    {% endfor %}
 {% endfor %}
 
 {% include "footer.html" %}
