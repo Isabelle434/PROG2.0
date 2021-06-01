@@ -22,16 +22,24 @@ def abschluss():
     if request.method == 'POST':
         person = request.form['person']
         datum = request.form['datum']
-        morgen = request.form['morgen']
-        mittag = request.form['mittag']
-        abend = request.form['abend']
-        nacht = request.form['nacht']
-        #try:
-        #    nachtja = request.form['nachtja']
-        #except:
-        #    nachtja= request.form['nachtja': "off"]
+        try:
+            morgen = request.form['morgen']
+        except:
+            morgen = "Nein"
+        try:
+            mittag = request.form['mittag']
+        except:
+            mittag = "Nein"
+        try:
+            abend = request.form['abend']
+        except:
+            abend = "Nein"
+        try:
+            nacht = request.form['nacht']
+        except:
+            nacht = "Nein"
         daten.speichernlog(person, datum, morgen, mittag, abend, nacht)
-        return "bestätigt"
+        return render_template("abschluss.html", tagesabschluss="Der Tagesabschluss wurde erfolgreich erfasst.")
     else:
         return render_template("abschluss.html")
 
@@ -56,10 +64,15 @@ def neuereintrag():
 @app.route("/personen", methods=['GET', 'POST'])
 def allepersonen():
     if request.method == 'POST':
+        #button = request.form['button']
+        #if button == "logfileperson":
         person = request.form['logfileperson']
         datei = "logfile.json"
-        logfile = daten.logfile(datei, person)
+        logfile = daten.datensatz(datei, person)
         return render_template("logfile.html", person=person, logfile=logfile)
+        #if button == "tagesabschluss":
+        #    person = request.form['tagesabschluss']
+        #    return render_template("abschluss.html", person=person)
     else:
         datei = "personen.json"
         personen = daten.alles(datei)

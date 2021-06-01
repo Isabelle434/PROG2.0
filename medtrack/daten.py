@@ -1,4 +1,3 @@
-from datetime import datetime
 import json
 
 def speichern(vorname, name, geburtstag, morgen, mittag, abend, nacht, bemerkung):
@@ -70,7 +69,7 @@ def alles(datei):
         return my_read_dict
 
 
-def logfile(datei, person):
+def datensatz(datei, person):
     with open(datei) as datei_name:
         json_as_string = datei_name.read()
         my_read_dict = json.loads(json_as_string)

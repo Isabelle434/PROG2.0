@@ -1,12 +1,23 @@
 {% include "header.html" %}
-
-Einträge für {{ person }}
+<br><br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+        <h5>Einträge für {{ person }}</h5>
+        </div>
+    </div>
 {% for key, value in logfile.items() %}
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
     <br>Datum: {{ key }}
     <br>Morgens: {{ value["Morgen"] }}
     Mittags: {{ value["Mittag"] }}
     Abends: {{ value["Abend"] }}
     Nachts: {{ value["Nacht"] }}
+        </div>
+    </div>
 {% endfor %}
-
+</div>
 {% include "footer.html" %}

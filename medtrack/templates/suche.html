@@ -1,15 +1,27 @@
 {% include "header.html" %}
+<br><br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <h5>Resultate für {{ suchbegriff }}</h5>
+            Geburtsdatum: {{ datensatz["Geburtsdatum"] }}<br>
+            Morgens: {{ datensatz["Morgen"] }}<br>
+            Mittags: {{ datensatz["Mittag"] }}<br>
+            Abends: {{ datensatz["Abend"] }}<br>
+            Nachts: {{ datensatz["Nacht"] }}<br>
 
-<h1>Resultate für {{ suchbegriff }}</h1>
-<p>
-    {{ datensatz }}
-    <br><br><br>
-</p>
 
-<a href="{{ url_for('abschluss')}}">Abschluss</a>
+            <br><br><br>
 
-
-
+            </div>
+            <div class="col-3"></div>
+            <div class="col-4"></div>
+            <div class="col-4">
+                <a class="btn btn-outline-success btn-block" href="{{ url_for('abschluss')}}" role="button">Tagesabschluss</a>
+            </div>
+    </div>
+</div>
 
 
 {% include "footer.html" %}

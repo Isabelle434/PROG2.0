@@ -1,23 +1,24 @@
 {% include "header.html" %}
-<section class="jumbotron text-center">
-    <div class="container">
-        <p>
-            Tag abschliessen:
-        <br>
-        </p>
+<br><br><br>
+    <div class="container text-center">
+        <h5>Tag abschliessen</h5><br><br>
 
         <form method="POST">
-            <input type="text" name="person" placeholder="Vorname Name"><br>
-            <input type="date" name="datum" placeholder="Datum"><br>
-            <input type="text" name="morgen" placeholder="Morgens"><br>
-            <input type="text" name="mittag" placeholder="Mittags"><br>
-            <input type="text" name="abend" placeholder="Abends"><br>
-            <input type="text" name="nacht" placeholder="Nachts"><br><br>
-        <!--    <input type="checkbox" name="nachtja" value="nachtja"><br> -->
+            <!--<input type="text" class="form-control" name="person" placeholder="Vorname Name"><br>-->
+            <input type="date" class="form-control" name="datum" placeholder="Datum"><br>
+            <label for="morgenid">Morgen</label>
+            <input type="checkbox" name="morgen" id="morgenid" value="Ja"><br>
+            <label for="mittagid">Mittag</label>
+            <input type="checkbox" name="mittag" id="mittagid" value="Ja"><br>
+            <label for="abendid">Abend</label>
+            <input type="checkbox" name="abend" id="abendid" value="Ja"><br>
+            <label for="nachtid">Nacht</label>
+            <input type="checkbox" name="nacht" id="nachtid" value="Ja"><br>
             <button type="submit" class="btn btn-outline-success">speichern</button>
         </form>
+        <br><h6>{{ tagesabschluss }}</h6>
     </div>
-</section>
+
 
 
 

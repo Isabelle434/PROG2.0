@@ -1,27 +1,33 @@
 {% include "header.html" %}
-<section class="jumbotron text-center">
-    <div class="container">
-        <h1>Neuer Eintrag</h1>
-    <div class="row">
-        <div class="col-sm">
-        <form method="POST">
-             <b>Personalien</b><br>
-            <input type="text" name="vorname" placeholder="Vorname"><br>
-            <input type="text" name="name" placeholder="Nachname"><br>
-            <input type="date" name="geburtstag" placeholder="Geburtsdatum"><br>
+<br><br><br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-12">
+            <h3>Neuer Eintrag</h3>
             </div>
-        <div class="col-sm">
-            <b>Benötigte Medikamente</b><br>
-            <input type="text" name="morgen" placeholder="Morgens"><br>
-            <input type="text" name="mittag" placeholder="Mittags"><br>
-            <input type="text" name="abend" placeholder="Abends"><br>
-            <input type="text" name="nacht" placeholder="Nachts"><br>
-            <input type="text" name="bemerkung" placeholder="Bemerkungen"><br><br>
-            <button type="submit" class="btn btn-outline-success">Erfassen</button>
-        </form>
+            <div class="col-6">
+            <form method="POST">
+                 <h5>Personalien</h5><br>
+                <input type="text" class="form-control" name="vorname" placeholder="Vorname"><br>
+                <input type="text" class="form-control" name="name" placeholder="Nachname"><br>
+                <!--Hier müsste noch ein Label Geburtstag hin, das sieht man nicht, weil placeholder nicht wirkt bei Date-->
+                <input type="date" class="form-control" name="geburtstag" placeholder="Geburtsdatum"><br>
             </div>
-    </div>
+            <div class="col-6">
+                <h5>Benötigte Medikamente</h5><br>
+                <input type="text" class="form-control" name="morgen" placeholder="Morgens" ><br>
+                <input type="text" class="form-control" name="mittag" placeholder="Mittags"><br>
+                <input type="text" class="form-control" name="abend" placeholder="Abends"><br>
+                <input type="text" class="form-control" name="nacht" placeholder="Nachts"><br>
+                <input type="text" class="form-control" name="bemerkung" placeholder="Bemerkungen"><br>
+            </div>
+
+            <div class="col-4"></div>
+            <div class="col-4">
+                <button type="submit" class="btn btn-outline-success btn-block">Erfassen</button>
+            </form>
+        </div>
     </div>
 
-</section>
+
 {% include "footer.html" %}

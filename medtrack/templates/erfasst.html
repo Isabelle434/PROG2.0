@@ -1,16 +1,25 @@
 {% include "header.html" %}
-
-    <h1>Neuer Eintrag erfasst</h1>
+<br><br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+    <h5>Neuer Eintrag erfasst</h5><br>
+            </div>
+        <div class="col-3"></div>
+        <div class="col-3">
+            <b>Personalien</b>
     <p>Vorname: {{ vorname }} <br>
         Nachname: {{ name }} <br>
         Geburtsdatum: {{ geburtstag }} <br>
-        Medikamente <br>
+        </div>
+        <div class="col-3">
+        <b>Medikamente</b><br>
         Morgen: {{ morgen }} <br>
         Mittag: {{ mittag }} <br>
         Abend: {{ abend }} <br>
         Nacht: {{ nacht }} <br>
-        Bemerkungen: {{ bemerkung }} <br>
-
-    </p>
-
+        Bemerkungen: {{ bemerkung }} <br></p>
+        </div>
+    </div>
+</div>
 {% include "footer.html" %}

@@ -5,6 +5,12 @@
             "Mittag": "Nein",
             "Abend": "Ja",
             "Nacht": "Ja"
+        },
+        "2021-06-09": {
+            "Morgen": "Ja",
+            "Mittag": "Ja",
+            "Abend": "Nein",
+            "Nacht": "Nein"
         }
     },
     "Hans Meier": {
@@ -13,6 +19,30 @@
             "Mittag": "Nein",
             "Abend": "Ja",
             "Nacht": "Ja"
+        },
+        "2021-06-10": {
+            "Morgen": "Ja",
+            "Mittag": "Nein",
+            "Abend": "Nein",
+            "Nacht": "Ja"
+        },
+        "2021-06-12": {
+            "Morgen": "Ja",
+            "Mittag": "Nein",
+            "Abend": "Nein",
+            "Nacht": "Ja"
+        },
+        "2021-06-17": {
+            "Morgen": "Ja",
+            "Mittag": "Ja",
+            "Abend": "Nein",
+            "Nacht": "Nein"
+        },
+        "2021-06-23": {
+            "Morgen": "Ja",
+            "Mittag": "Ja",
+            "Abend": "Nein",
+            "Nacht": "Nein"
         }
     },
     "Frank Karl": {
@@ -52,15 +82,31 @@
             "Morgen": "Ja",
             "Mittag": "Nein",
             "Abend": "Nein",
-            "Nacht": "Nein",
-            "Nachtja": "nachtja"
+            "Nacht": "Nein"
         },
         "2021-05-26": {
             "Morgen": "Ja",
             "Mittag": "Nein",
             "Abend": "Nein",
-            "Nacht": "Nein",
-            "Nachtja": "nachtja"
+            "Nacht": "Nein"
+        },
+        "2021-06-11": {
+            "Morgen": "Ja",
+            "Mittag": "Nein",
+            "Abend": "Ja",
+            "Nacht": "Nein"
+        },
+        "2021-06-17": {
+            "Morgen": "Nein",
+            "Mittag": "Ja",
+            "Abend": "Ja",
+            "Nacht": "Nein"
+        },
+        "2021-06-27": {
+            "Morgen": "Nein",
+            "Mittag": "Nein",
+            "Abend": "Ja",
+            "Nacht": "Nein"
         }
     },
     "Dominik Schaffhausen": {
