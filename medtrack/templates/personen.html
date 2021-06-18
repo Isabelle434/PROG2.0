@@ -14,24 +14,19 @@
                 <br>Nachts: {{ angaben["Nacht"] }}
                 <br>Bemerkungen: {{ angaben["Bemerkungen"] }}<br><br>
             </div>
-    </form>
+
             <div class="col-3"></div>
             <div class="col-3"></div>
             <div class="col-2">
-                <!--<button type="submit" class="btn btn-outline-success btn-block" name="button" value="{{ person }}">Tagesabschluss</button>-->
                 <a class="btn btn-outline-success btn-block" href="{{ url_for('abschluss')}}" role="button">Tagesabschluss</a>
             </div>
             <div class="col-2">
-                <!--wenn zwei Button, dann müssen beide name="Button" haben und die value muss individuell sein. -->
                 <button type="submit" class="btn btn-outline-success btn-block" name="logfileperson" value="{{ person }}">Logfile</button>
-            </div>
-            <div class="col-2">
-                <a class="btn btn-outline-success btn-block" href="{{ url_for('abschluss')}}" role="button">Statistik</a>
             </div>
         <div class="col-3"></div>
     </div>
         {% endfor %}
-
+</div></form>
 </div>
 
 

@@ -1,24 +1,43 @@
 {% include "header.html" %}
 <br><br><br>
     <div class="container text-center">
-        <h5>Tag abschliessen</h5><br><br>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <h3>Tagesabschluss</h3><br>
+                <p>Bitte bestätige, dass alle erfassten Medikamente verabreicht wurden, in dem du die Box bei der entsprechenden Tageszeit markierst.</p>
+                    <form method="POST">
+                        <input type="text" class="form-control" name="person" placeholder="Vorname Name"><br>
+                        <input type="date" class="form-control" name="datum" placeholder="Datum">
+                        </div>
+                        <div class="col-5"></div>
+                        <div class="col-1"><label for="morgenid">Morgen</label></div>
+                        <div class="col-1"><input type="checkbox" name="morgen" id="morgenid" value="Ja"></div>
+                        <div class="col-5"></div>
+                        <div class="col-5"></div>
+                        <div class="col-1"><label for="mittagid">Mittag</label></div>
+                        <div class="col-1"><input type="checkbox" name="mittag" id="mittagid" value="Ja"></div>
+                        <div class="col-5"></div>
+                        <div class="col-5"></div>
+                        <div class="col-1"><label for="abendid">Abend</label></div>
+                        <div class="col-1"><input type="checkbox" name="abend" id="abendid" value="Ja"></div>
+                        <div class="col-5"></div>
+                        <div class="col-5"></div>
+                        <div class="col-1"><label for="nachtid">Nacht</label></div>
+                        <div class="col-1"><input type="checkbox" name="nacht" id="nachtid" value="Ja"></div>
+                        <div class="col-5"></div>
 
-        <form method="POST">
+
+                        <div class="col-4"></div>
+                        <div class="col-4">
+                            <button type="submit" class="btn btn-outline-success btn-block">speichern</button>
+                    </form>
             <!--<input type="text" class="form-control" name="person" placeholder="Vorname Name"><br>-->
-            <input type="date" class="form-control" name="datum" placeholder="Datum"><br>
-            <label for="morgenid">Morgen</label>
-            <input type="checkbox" name="morgen" id="morgenid" value="Ja"><br>
-            <label for="mittagid">Mittag</label>
-            <input type="checkbox" name="mittag" id="mittagid" value="Ja"><br>
-            <label for="abendid">Abend</label>
-            <input type="checkbox" name="abend" id="abendid" value="Ja"><br>
-            <label for="nachtid">Nacht</label>
-            <input type="checkbox" name="nacht" id="nachtid" value="Ja"><br>
-            <button type="submit" class="btn btn-outline-success">speichern</button>
-        </form>
-        <br><h6>{{ tagesabschluss }}</h6>
-    </div>
+                <br><h6>{{ tagesabschluss }}</h6>
 
+        </div>
+    </div>
+    </div>
 
 
 
