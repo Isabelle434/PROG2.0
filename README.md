@@ -18,6 +18,6 @@ Neben dem Anzeigen der Daten kann auch eine Statistik angezeigt werden, um zu ü
 ob alle Medikamente immer verabreicht wurden.<br>
 <h1>Diagramme</h1>
 Neues Medikament zu einer Person hinzufügen<br>
-![alt text](medtrack_diagramm_Medikament erfassen.png "Logo Title Text 1")<br>
+![alt text]("medtrack_diagramm_Medikament erfassen.png")<br>
 Person suchen und verabreichte Medikamente bestätigen<br>
 <img src="{{url_for('static', filename='medtrack_diagramm_Person suchen.png')}}">
