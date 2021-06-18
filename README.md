@@ -15,7 +15,9 @@ Der Name einer Person kann eingeben werden bzw. die Datenbank kann durchsucht we
 zu dieser Person angezeigt. 
 Wenn die Medikamente verabreicht wurden, muss dies entsprechend angehackt werden.
 Neben dem Anzeigen der Daten kann auch eine Statistik angezeigt werden, um zu überprüfen,
-ob alle Medikamente immer verabreicht wurden.
+ob alle Medikamente immer verabreicht wurden. 
+# Bedienung
+Zur Verwendung der Applikation muss die main.py Datei gestartet werden und die Approute /index aufgerufen werden.
 # Diagramme
 ### Tagesabschluss einer Person. 
 ![alt text](Tagesabschluss.png)
