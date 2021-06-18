@@ -2,31 +2,31 @@
     "Max Mustermann": {
         "Vorname": "Max",
         "Name": "Mustermann",
-        "Geburtsdatum": "1997-10-01",
-        "Morgen": "Tablette 1",
-        "Mittag": "Tablette 2",
-        "Abend": "Tablette 3",
-        "Nacht": "Tablette 4",
-        "Bemerkungen": "Haus"
+        "Geburtsdatum": "1957-10-01",
+        "Morgen": "1 Eisentablette",
+        "Mittag": "1 Ritalintablette",
+        "Abend": "1 Päcklein Vitamin B12",
+        "Nacht": "1 Spritze Blutverdünner",
+        "Bemerkungen": "Angst vor Spritzen"
     },
     "Hans Meier": {
         "Vorname": "Hans",
         "Name": "Meier",
-        "Geburtsdatum": "2021-05-04",
-        "Morgen": "33 jfkdjfkdk",
-        "Mittag": "7 jfkdsjf",
-        "Abend": "9 jfdksajf ",
-        "Nacht": "0 kjfdksaf",
-        "Bemerkungen": "Hello"
+        "Geburtsdatum": "1945-05-04",
+        "Morgen": "1 Päcklein Vitamin B12",
+        "Mittag": "1 Eisentablette",
+        "Abend": "1 Omega 3 Kapsel",
+        "Nacht": "1 Spritze Blutverdünner",
+        "Bemerkungen": "Sehr gesprächig"
     },
     "Frank Karl": {
         "Vorname": "Frank",
         "Name": "Karl",
-        "Geburtsdatum": "2021-04-26",
-        "Morgen": "3 fdsaf",
-        "Mittag": "9 fjdsaf",
-        "Abend": "7 jfdskalf",
-        "Nacht": "92 jfdskafjl",
-        "Bemerkungen": "djsfkal"
+        "Geburtsdatum": "1934-04-26",
+        "Morgen": "1 Eisentablette",
+        "Mittag": "1 Spritze Blutverdünner",
+        "Abend": "1 Omega 3 Kapsel",
+        "Nacht": "1 Päcklein Vitamin B12",
+        "Bemerkungen": "Kann Tabletten nur sehr schlecht schlucken"
     }
 }
