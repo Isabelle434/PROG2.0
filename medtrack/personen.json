@@ -1,7 +1,7 @@
 {
-    "Isabelle K\u00f6hle": {
-        "Vorname": "Isabelle",
-        "Name": "K\u00c3\u00b6hle",
+    "Max Mustermann": {
+        "Vorname": "Max",
+        "Name": "Mustermann",
         "Geburtsdatum": "1997-10-01",
         "Morgen": "Tablette 1",
         "Mittag": "Tablette 2",
@@ -28,55 +28,5 @@
         "Abend": "7 jfdskalf",
         "Nacht": "92 jfdskafjl",
         "Bemerkungen": "djsfkal"
-    },
-    "Max Meier": {
-        "Vorname": "Max",
-        "Name": "Meier",
-        "Geburtsdatum": "2021-04-26",
-        "Morgen": "234 jfkdsj",
-        "Mittag": "99 fksdjf",
-        "Abend": "2 fjdk",
-        "Nacht": "1 jfkds",
-        "Bemerkungen": "helloff"
-    },
-    "Samira Inglin": {
-        "Vorname": "Samira",
-        "Name": "Inglin",
-        "Geburtsdatum": "2021-05-05",
-        "Morgen": "3 fdsaf",
-        "Mittag": "7 jfkdsjf",
-        "Abend": "7 jfdskalf",
-        "Nacht": "0 kjfdksaf",
-        "Bemerkungen": "sal\u00fc\u00fc"
-    },
-    "Dominik Schaffhausen": {
-        "Vorname": "Dominik",
-        "Name": "Schaffhausen",
-        "Geburtsdatum": "2021-04-27",
-        "Morgen": "3 jfdk",
-        "Mittag": "5 jfdskfj",
-        "Abend": "3 jfdksjf",
-        "Nacht": "9 fdjksfj",
-        "Bemerkungen": "fjdksjfa"
-    },
-    "Leo M\u00fcller": {
-        "Vorname": "Leo",
-        "Name": "M\u00fcller",
-        "Geburtsdatum": "2020-05-20",
-        "Morgen": "33 hfkdsjklf",
-        "Mittag": "99 fjkdsajfkd",
-        "Abend": "3 jfkdsjafksdj",
-        "Nacht": "1 jfkdsjaflkd",
-        "Bemerkungen": "Spritzenphobie"
-    },
-    "Meret Walter": {
-        "Vorname": "Meret",
-        "Name": "Walter",
-        "Geburtsdatum": "2021-05-05",
-        "Morgen": "4 jfkdfsj",
-        "Mittag": "9 fkdsjf",
-        "Abend": "9 fjdkslafj ",
-        "Nacht": "4 jfkdsljaf",
-        "Bemerkungen": "Z\u00fcrcherin"
     }
 }
