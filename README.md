@@ -16,8 +16,8 @@ zu dieser Person angezeigt.
 Wenn die Medikamente verabreicht wurden, muss dies entsprechend angehackt werden.
 Neben dem Anzeigen der Daten kann auch eine Statistik angezeigt werden, um zu überprüfen,
 ob alle Medikamente immer verabreicht wurden.
-#Diagramme
-Tagesabschluss einer Person. 
+# Diagramme
+### Tagesabschluss einer Person. 
 ![alt text](Tagesabschluss.png)
-Person suchen oder neu erfassen. 
+### Person suchen oder neu erfassen. 
 ![alt text](PersonErfassen.png)
