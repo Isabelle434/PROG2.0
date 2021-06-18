@@ -4,7 +4,7 @@ Mitarbeitende im Gesundheitsbereich müssen sich sehr viele Sachen merken und si
 Dies bringt eine hohe und gefährliche Fehlerquelle mit sich. 
 ### Funktion/Projektidee
 Mit meinem Projekt will ich dies erleichtern. Die Patientendaten können mit den wichtigsten Informationen erfasst werden
-und zu jedem Zeitpunkt abgerufen werden, um zu wissen, was bei welchem Patient verarbeicht werden muss.
+und zu jedem Zeitpunkt abgerufen werden, um zu wissen, was bei welchem Patient verabreicht werden muss.
 ### Workflow
 #### Dateieingabe
 Die Patientendaten (Name, Alter, usw.) werden erfasst. Zusätzlich werden die verschriebenen Medikamente und die Tageszeit, zu der sie angewendet werden müssen, erfasst.
@@ -17,7 +17,7 @@ Wenn die Medikamente verabreicht wurden, muss dies entsprechend angehackt werden
 Neben dem Anzeigen der Daten kann auch eine Statistik angezeigt werden, um zu überprüfen,
 ob alle Medikamente immer verabreicht wurden.
 #Diagramme
-Neues Medikament zu einer Person hinzufügen 
-![alt text](MedikamentErfassen.png)
-Person suchen und verabreichte Medikamente bestätigen 
-![alt text](PersonSuchen.png)
+Tagesabschluss einer Person. 
+![alt text](Tagesabschluss.png)
+Person suchen oder neu erfassen. 
+![alt text](PersonErfassen.png)
