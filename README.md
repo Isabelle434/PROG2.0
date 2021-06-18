@@ -17,6 +17,7 @@ Wenn die Medikamente verabreicht wurden, muss dies entsprechend angehackt werden
 Neben dem Anzeigen der Daten kann auch eine Statistik angezeigt werden, um zu überprüfen,
 ob alle Medikamente immer verabreicht wurden.
 #Diagramme
-Neues Medikament zu einer Person hinzufügen
-![alt text](img.png)
-Person suchen und verabreichte Medikamente bestätigen
+Neues Medikament zu einer Person hinzufügen 
+![alt text](MedikamentErfassen.png)
+Person suchen und verabreichte Medikamente bestätigen 
+![alt text](PersonSuchen.png)
