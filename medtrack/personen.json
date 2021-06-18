@@ -5,28 +5,28 @@
         "Geburtsdatum": "1957-10-01",
         "Morgen": "1 Eisentablette",
         "Mittag": "1 Ritalintablette",
-        "Abend": "1 Päcklein Vitamin B12",
-        "Nacht": "1 Spritze Blutverdünner",
+        "Abend": "1 P\u00a4cklein Vitamin B12",
+        "Nacht": "1 Spritze Blutverd\u00fcnner",
         "Bemerkungen": "Angst vor Spritzen"
     },
     "Hans Meier": {
         "Vorname": "Hans",
         "Name": "Meier",
         "Geburtsdatum": "1945-05-04",
-        "Morgen": "1 Päcklein Vitamin B12",
+        "Morgen": "1 P\u00a4cklein Vitamin B12",
         "Mittag": "1 Eisentablette",
         "Abend": "1 Omega 3 Kapsel",
-        "Nacht": "1 Spritze Blutverdünner",
-        "Bemerkungen": "Sehr gesprächig"
+        "Nacht": "1 Spritze Blutverd\u00fcnner",
+        "Bemerkungen": "Sehr gespr\u00a4chig"
     },
     "Frank Karl": {
         "Vorname": "Frank",
         "Name": "Karl",
         "Geburtsdatum": "1934-04-26",
         "Morgen": "1 Eisentablette",
-        "Mittag": "1 Spritze Blutverdünner",
+        "Mittag": "1 Spritze Blutverd\u00fcnner",
         "Abend": "1 Omega 3 Kapsel",
-        "Nacht": "1 Päcklein Vitamin B12",
+        "Nacht": "1 P\u00a4cklein Vitamin B12",
         "Bemerkungen": "Kann Tabletten nur sehr schlecht schlucken"
     }
 }
